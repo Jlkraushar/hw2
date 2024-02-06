@@ -80,8 +80,7 @@ Role.destroy_all
 
 # Create a new Studio instance
 warner_bros = Studio.new
-
-# Save the studio to the database
+warner_bros["name"] = "Warner Bros."
 warner_bros.save
 
 # Batman Begins
